@@ -49,9 +49,9 @@ body {
   bottom: 90px; /* AQUI sobe o texto */
   left: 50%;
   transform: translateX(-50%);
-  color: #33671a;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0 0 1px #fff;
+  text-shadow: 0 0 1px #0000003d;
 }
