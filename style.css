@@ -45,12 +45,12 @@ body {
 .slide:first-child::after {
   content: "Deslize →";
   position: absolute;
-  bottom: 40px;
+  bottom: 90px; /* AQUI sobe o texto */
   left: 50%;
-
   transform: translateX(-50%);
   color: #33671a;
+  font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0 0 10px #ffffff8e;
+  text-shadow: 0 0 1px #fff;
 }
