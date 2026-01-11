@@ -30,22 +30,15 @@ body {
   position: relative;
 
   min-width: 100vw;
-  height: 100svh; /* <- CHAVE */
+  height: 100dvh;
 
   scroll-snap-align: start;
   flex-shrink: 0;
 
   background-color: #33671a;
   background-size: cover;
-  background-position: center top;
+  background-position: center 35%;
   background-repeat: no-repeat;
-}
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-  display: block;
 }
 
 /* Hint visual no primeiro slide */
