@@ -46,7 +46,7 @@ body {
   content: "Deslize →";
   margin-left: 6px;
   position: absolute;
-  bottom: 13vh; /* AQUI sobe o texto */
+  bottom: calc(64px + env(safe-area-inset-bottom));
   left: 50%;
   transform: translateX(-50%);
   color: #33671a;
