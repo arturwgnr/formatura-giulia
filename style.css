@@ -47,11 +47,10 @@ body {
   position: absolute;
   bottom: 40px;
   left: 50%;
+
   transform: translateX(-50%);
   color: #33671a;
-  font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+  text-shadow: 0 0 10px #ffffff8e;
 }
